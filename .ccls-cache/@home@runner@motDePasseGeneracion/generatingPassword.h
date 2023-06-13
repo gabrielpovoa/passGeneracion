@@ -6,16 +6,6 @@
 
 using namespace std;
 
-void showOptions() {
-  cout << "**********OPTION**********" << endl;
-   cout << "Choose an option:" << endl;
-      cout << "1. Generate password" << endl;
-      cout << "2. View password" << endl;
-      cout << "3. Exit" << endl;
-      cout << "Option: ";
-  cout << "***************************" << endl;
-}
-
 const char SETTING_LOWERCASE[] = "abcdefghijklmnopqrstuvwxyz";
 const char SETTING_UPPERCASE[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const char SETTING_UP_DIGITS[] = "0123456789";
