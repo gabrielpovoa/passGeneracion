@@ -22,7 +22,7 @@ int main() {
   while (!isLogged) {
     int loginOption;
 
-    cout << "LOGIN" << endl;
+    cout << "USER AREA" << endl;
     cout << "1. Login" << endl;
     cout << "2. Create Account" << endl;
     cout << "3. Exit" << endl;
@@ -31,6 +31,7 @@ int main() {
 
     switch (loginOption) {
     case 1:
+      cout << "LOGIN AREA\n\n";
       cout << "Enter your ID (Registry): ";
       cin >> initialInputId;
       cout << "Enter your PASSWORD: ";
@@ -52,6 +53,7 @@ int main() {
 
     case 2: {
       string newId, newPassword;
+      cout << "CREATE ACCOUNT AREA\n\n";
       cout << "Enter your new ID (Registry): ";
       cin >> newId;
 
@@ -86,7 +88,8 @@ int main() {
   GEN_PASSWORD gp;
   vector<string> passwords;
 
-  cout << "\n\nYou are logged in and can now generate and view passwords.\n\n"
+  cout << "\n\nYou are logged in and now you can start generating and view the "
+          "passwords.\n\n"
        << endl;
 
   int option;
